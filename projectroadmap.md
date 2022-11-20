@@ -8,6 +8,6 @@ TASKS
 7. [x] Create main game component
 8. [x] Create while loop 
 9. [x] Create Inner for loop
-10. [x] Implement attempts
+10. [ ] Implement attempts
 11. [ ] Implement graphic for hidden word/letters guessed
 12. [ ] Implement statements once letter is guessed correctly/incorrectly 

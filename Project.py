@@ -24,7 +24,7 @@ while tries > 0:   #while loop begins
         break
     guess = input("guess a character: ")
     guesses += guess
-    if guess.lower().startswith("q"): #User wants to quit
+    if guess.lower() == "quit": #User wants to quit
         print("You chose to quit")
         print("The word was:", words)
         break
@@ -37,3 +37,6 @@ while tries > 0:   #while loop begins
     
 
 #add lower (methods)/ Force input into lowercase
+ # method that does not take inputs other than letters
+ # Change quit option into =
+ #Remember to delete to delete the print(words) statement in line 5.
